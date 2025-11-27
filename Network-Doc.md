@@ -6,7 +6,7 @@
 
 ## Physical Topology
 ### Device Details:
- * **Device Locations:** Router in the Sitting Room, desktop PC in Room1, Laptop in Room2, Tablet in Room3, Smart Phone in Room4
+ * **Device Locations:** Router in the Sitting Room, Desktop PC in Room1, Laptop in Room2, Tablet in Room3, Smart Phone in Room4
  * **Connection Type:** Connection is wireless (Wi-Fi ).
  * **Cable Runs:** Fiber Optics from Internet to Router.
 ## Logical Topology
@@ -14,9 +14,14 @@
 
 ### Network Devices and Services
 
-|**Device Name**|**Type**|**Make/Model**|**Physical Location**|**IP Address**|**MAC Address**|**Firmware Version**|
-|------|-----|-----|-----|-----|----|----|
-|EdgeRouter|Router|ISP-ABC-Model|Main Floor Closet|192.168.1.254|A1:B2:C3:D4:E5:F6|v1.2|
+|**Device Name**|**Type**|**Make/Model**|**Physical Location**|**IP Address**|**MAC Address**|**Firmware Version**|**Default Gateway**|
+|------|-----|-----|-----|-----|----|----|----|
+|EdgeRouter|Router|ISP-ABC-Model|Sitting Room|192.168.1.254|A1:B2:C3:D4:E5:F6|v1.2|
+|Dell-PC	|PC	|Workstation|Room1|192.168.1.60|D3:E4:A8:B7:F3|  |192.168.1.|254
+|ASUS TUF-Laptop|Gaming Laptops |A15 -ASUS Laptop|Room2|192.168.1.65|A3:C5:F4:A9:D2:F8| |192.168.1.254|
+|Lenovo-Tablet|Smart Tablet|X5- Lenovo Tablet|Room3|192.168.1.70|B3:C5:F4:A9:C2:D8| |192.168.1.254|
+|Samsung Phone|Mobile Phone|Smart Phone|Room4|192.168.1.75|B6:E5:F4:A9:C2:D7| |192.168.1.254|
+
 ### Servers/Services
 | **Service**|**Server/Device**|**Protocol(s)**|**Port(s)**|**Internal Access URL** |
 |----|---|---|---|------|
@@ -43,3 +48,24 @@ This section defines your IP address structure and allocation rules.
 |Laptop| 192.168.1.65| Personal Computer, for everyday internet exploration|
 |Tablet| 192.168.1.70| for making call and internet exploration|
 |Smart Phone| 192.168.1.75| for making call and internet search|
+
+### Device Configurations
+* **Router:**
+  * DHCP range: 192.168.1.100–192.168.1.200
+  * VLANs configured for segmentation
+  * WPA3 Wi-Fi security enabled
+* **NAS Server:**
+    * RAID 1 for redundancy
+    * SMB shares for PCs
+    * Scheduled backups nightly
+* **PCs:**
+    * Static IPs for reliability
+    * Windows Server tools installed for labs
+* **IoT Devices:**
+    * Isolated VLAN for security
+
+### Secure Credential Storage
+* **Password Manager** (e.g., Bitwarden, KeePass) used for all device logins
+* **Multi-Factor Authentication (MFA)** enabled on router and NAS
+* **SSH Keys** stored securely for NAS administration
+* **No plaintext storage** of credentials in documentation

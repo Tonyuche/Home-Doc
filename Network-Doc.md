@@ -8,7 +8,7 @@
 ### Device Details:
  * **Device Locations:** Router in the Sitting Room, desktop PC in Room1, Laptop in Room2, Tablet in Room3, Smart Phone in Room4
  * **Connection Type:** Connection is wireless (Wi-Fi ).
- * **Cable Runs:** Optic Fiber from Internet to Router.
+ * **Cable Runs:** Fiber Optics from Internet to Router.
 ## Logical Topology
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/f6c76d37-de7f-4e88-9bd9-af05dfe1e5cd" />
 

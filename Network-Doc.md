@@ -38,6 +38,7 @@ This section defines your IP address structure and allocation rules.
 #### Static IP Address Assignments
 |**Device**|**Assigned IP**|**Purpose**|
 |---|---|---|
+|NAS-Server|192.168.1.50|File storage, media streaming, DNS|
 |Desktop-PC |192.168.1.60|Workstation, specific port forwarding|
 |Laptop| 192.168.1.65| Personal Computer, for everyday internet exploration|
 |Tablet| 192.168.1.70| for making call and internet exploration|

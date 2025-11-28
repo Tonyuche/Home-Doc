@@ -17,7 +17,7 @@
 |**Device Name**|**Type**|**Make/Model**|**Physical Location**|**IP Address**|**MAC Address**|**Firmware Version**|**Default Gateway**|
 |------|-----|-----|-----|-----|----|----|----|
 |EdgeRouter|Router|ISP-ABC-Model|Sitting Room|192.168.1.254|A1:B2:C3:D4:E5:F6|v1.2|
-|Dell-PC	|PC	|Workstation|Room1|192.168.1.60|D3:E4:A8:B7:F3|  |192.168.1.|254
+|Dell-PC	|PC	|Workstation|Room1|192.168.1.60|D3:E4:A8:B7:F3|  |192.168.1.254|
 |ASUS TUF-Laptop|Gaming Laptops |A15 -ASUS Laptop|Room2|192.168.1.65|A3:C5:F4:A9:D2:F8| |192.168.1.254|
 |Lenovo-Tablet|Smart Tablet|X5- Lenovo Tablet|Room3|192.168.1.70|B3:C5:F4:A9:C2:D8| |192.168.1.254|
 |Samsung Phone|Mobile Phone|Smart Phone|Room4|192.168.1.75|B6:E5:F4:A9:C2:D7| |192.168.1.254|
